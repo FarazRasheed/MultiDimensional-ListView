@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout.LayoutParams parms2 = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         LinearLayout.LayoutParams parms3 = new LinearLayout.LayoutParams(100, 100);
         LinearLayout.LayoutParams parms4 = new LinearLayout.LayoutParams(100, 100);
-        parms3.setMargins(30, 0, 0, 0);
+        parms3.setMargins(30, 30, 0, 0);
         parms.setMargins(0, 0, 0, 30);
 
 
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         for (int j=0; j<9; j++){
             HorizontalScrollView scrollView = new HorizontalScrollView(this);
             scrollView.setLayoutParams(parms);
-            scrollView.setBackgroundColor(getResources().getColor(R.color.colorAccent));
+            scrollView.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
 
             LinearLayout main2 = new LinearLayout(this);
             main2.setLayoutParams(parms2);
